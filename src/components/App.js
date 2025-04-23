@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <ToolTip text="This is a tooltip">
         <h2 className="tooltip">
-          Hover over me
+          This is a tooltip
          
           </h2>
 
