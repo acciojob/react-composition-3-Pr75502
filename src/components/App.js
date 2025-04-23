@@ -7,7 +7,7 @@ import ToolTip from "./Tooltip";
 const App = () => {
   return (
     <div>
-      <ToolTip text="This is a tooltip">
+      <ToolTip text="Hover over me">
         <h2 className="tooltip">
           This is a tooltip
          
@@ -15,9 +15,9 @@ const App = () => {
 
       </ToolTip>
 
-      <ToolTip text="This is another tooltip">
+      <ToolTip text="Hover over me to see another tooltip">
         <p className="tooltip">
-        Hover over me to see another tooltip
+          This is another tooltip
           
          </p>
       </ToolTip>
