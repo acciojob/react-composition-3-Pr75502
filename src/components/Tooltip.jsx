@@ -9,8 +9,9 @@ const [show, setShow] = useState(false);
             onMouseEnter={()=>setShow(true)}
             onMouseLeave={()=>setShow(false)}
         >
-            {children}
             {show && <div className="tooltiptext">{text}</div>}
+            {children}
+           
         </div>
     )
 }
